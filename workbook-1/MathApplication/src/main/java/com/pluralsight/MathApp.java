@@ -70,7 +70,7 @@ public class MathApp {
         // then use System.out.println() to display results
         // ex: System.out.println("The answer is " + answer);
         System.out.println("The absolute value of " + wybe + " is: " + absoluteValue);
-        
+
 
         // Question 7:      Display a random number between 0 and 1
         // declare variables here
