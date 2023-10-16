@@ -1,0 +1,95 @@
+<html>
+<head>
+<title>CellPhone.java</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+.s0 { color: #cf8e6d;}
+.s1 { color: #bcbec4;}
+.s2 { color: #bcbec4;}
+.s3 { color: #2aacb8;}
+.s4 { color: #6aab73;}
+</style>
+</head>
+<body bgcolor="#1e1f22">
+<table CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#606060" >
+<tr><td><center>
+<font face="Arial, Helvetica" color="#000000">
+CellPhone.java</font>
+</center></td></tr></table>
+<pre><span class="s0">package </span><span class="s1">com</span><span class="s2">.</span><span class="s1">pluralsight</span><span class="s2">;</span>
+
+<span class="s0">public class </span><span class="s1">CellPhone </span><span class="s2">{</span>
+
+    <span class="s0">private int </span><span class="s1">serialNumber</span><span class="s2">;</span>
+    <span class="s0">private </span><span class="s1">String model</span><span class="s2">;</span>
+    <span class="s0">private </span><span class="s1">String carrier</span><span class="s2">;</span>
+    <span class="s0">private </span><span class="s1">String phoneNumber</span><span class="s2">;</span>
+    <span class="s0">private </span><span class="s1">String owner</span><span class="s2">;</span>
+    <span class="s0">private </span><span class="s1">String dial</span><span class="s2">;</span>
+
+    <span class="s0">public </span><span class="s1">CellPhone</span><span class="s2">() {</span>
+        <span class="s1">serialNumber </span><span class="s2">= </span><span class="s3">0</span><span class="s2">;</span>
+        <span class="s1">model </span><span class="s2">= </span><span class="s4">&quot;&quot;</span><span class="s2">;</span>
+        <span class="s1">carrier </span><span class="s2">= </span><span class="s4">&quot;&quot;</span><span class="s2">;</span>
+        <span class="s1">phoneNumber </span><span class="s2">= </span><span class="s4">&quot;&quot;</span><span class="s2">;</span>
+        <span class="s1">owner </span><span class="s2">= </span><span class="s4">&quot;&quot;</span><span class="s2">;</span>
+        <span class="s1">dial </span><span class="s2">= </span><span class="s4">&quot;&quot;</span><span class="s2">;</span>
+
+    <span class="s2">}</span>
+
+    <span class="s0">public int </span><span class="s1">getSerialNumber</span><span class="s2">() {</span>
+        <span class="s0">return </span><span class="s1">serialNumber</span><span class="s2">;</span>
+    <span class="s2">}</span>
+
+    <span class="s0">public void </span><span class="s1">setSerialNumber</span><span class="s2">(</span><span class="s0">int </span><span class="s1">serialNumber</span><span class="s2">) {</span>
+        <span class="s0">this</span><span class="s2">.</span><span class="s1">serialNumber </span><span class="s2">= </span><span class="s1">serialNumber</span><span class="s2">;</span>
+    <span class="s2">}</span>
+
+    <span class="s0">public </span><span class="s1">String getModel</span><span class="s2">() {</span>
+        <span class="s0">return </span><span class="s1">model</span><span class="s2">;</span>
+    <span class="s2">}</span>
+
+    <span class="s0">public void </span><span class="s1">setModel</span><span class="s2">(</span><span class="s1">String model</span><span class="s2">) {</span>
+        <span class="s0">this</span><span class="s2">.</span><span class="s1">model </span><span class="s2">= </span><span class="s1">model</span><span class="s2">;</span>
+    <span class="s2">}</span>
+
+    <span class="s0">public </span><span class="s1">String getCarrier</span><span class="s2">() {</span>
+        <span class="s0">return </span><span class="s1">carrier</span><span class="s2">;</span>
+    <span class="s2">}</span>
+
+    <span class="s0">public void </span><span class="s1">setCarrier</span><span class="s2">(</span><span class="s1">String carrier</span><span class="s2">) {</span>
+        <span class="s0">this</span><span class="s2">.</span><span class="s1">carrier </span><span class="s2">= </span><span class="s1">carrier</span><span class="s2">;</span>
+    <span class="s2">}</span>
+
+    <span class="s0">public </span><span class="s1">String getPhoneNumber</span><span class="s2">() {</span>
+        <span class="s0">return </span><span class="s1">phoneNumber</span><span class="s2">;</span>
+    <span class="s2">}</span>
+
+    <span class="s0">public void </span><span class="s1">setPhoneNumber</span><span class="s2">(</span><span class="s1">String phoneNumber</span><span class="s2">) {</span>
+        <span class="s0">this</span><span class="s2">.</span><span class="s1">phoneNumber </span><span class="s2">= </span><span class="s1">phoneNumber</span><span class="s2">;</span>
+    <span class="s2">}</span>
+
+    <span class="s0">public </span><span class="s1">String getOwner</span><span class="s2">() {</span>
+        <span class="s0">return </span><span class="s1">owner</span><span class="s2">;</span>
+    <span class="s2">}</span>
+
+    <span class="s0">public </span><span class="s1">String getDial</span><span class="s2">() {</span>
+        <span class="s0">return </span><span class="s1">dial</span><span class="s2">;</span>
+    <span class="s2">}</span>
+
+    <span class="s0">public void </span><span class="s1">setDial</span><span class="s2">(</span><span class="s1">String dial</span><span class="s2">) {</span>
+        <span class="s0">this</span><span class="s2">.</span><span class="s1">dial </span><span class="s2">= </span><span class="s1">dial</span><span class="s2">;</span>
+    <span class="s2">}</span>
+
+    <span class="s0">public void </span><span class="s1">setOwner</span><span class="s2">(</span><span class="s1">String owner</span><span class="s2">) {</span>
+        <span class="s0">this</span><span class="s2">.</span><span class="s1">owner </span><span class="s2">= </span><span class="s1">owner</span><span class="s2">;</span>
+
+        <span class="s0">public void </span><span class="s1">dial</span><span class="s2">(</span><span class="s1">String phoneNumber</span><span class="s2">) {</span>
+            <span class="s1">System</span><span class="s2">.</span><span class="s1">out</span><span class="s2">.</span><span class="s1">println</span><span class="s2">(</span><span class="s0">this</span><span class="s2">.</span><span class="s1">owner </span><span class="s2">+ </span><span class="s4">&quot;phoneNumber&quot; </span><span class="s2">+ </span><span class="s1">phoneNumber</span><span class="s2">);</span>
+
+        <span class="s2">}</span>
+    <span class="s2">}</span>
+<span class="s2">}</span>
+</pre>
+</body>
+</html>
